@@ -8,3 +8,4 @@ use App\Http\Controllers\Website\FrontendController;
 // });
 
 Route::get('/',[FrontendController::class, 'index'])->name('home');
+Route::get('/about',[FrontendController::class, 'about'])->name('about');

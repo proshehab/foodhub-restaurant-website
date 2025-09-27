@@ -15,11 +15,11 @@
                     <ul class="navbar-nav">
 
                         <li>
-                            <a href="#home" class="nav-link">Home</a>
+                            <a href="{{ route('home') }}" class="nav-link">Home</a>
                         </li>
 
                         <li>
-                            <a href="#about" class="nav-link">About</a>
+                            <a href="{{ route('about') }}" class="nav-link">About</a>
                         </li>
 
                         <li>
