@@ -35,9 +35,9 @@
         @include('website.layouts.header')
 
 
-
-        @yield('content')
-
+        <main>
+            @yield('content')
+        </main>
 
         @include('website.layouts.footer')
     </div>
