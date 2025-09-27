@@ -3,8 +3,8 @@
     <main>
 
         <!--
-                                                                        - #HOME SECTION
-                                                                    -->
+                                                                                        - #HOME SECTION
+                                                                                    -->
 
         <section class="home" id="home">
 
@@ -68,8 +68,8 @@
 
 
         <!--
-                                                                                                    - #ABOUT SECTION
-                                                                                                  -->
+                                                                                                                    - #ABOUT SECTION
+                                                                                                                  -->
 
         <section class="about" id="about">
 
@@ -134,8 +134,8 @@
 
 
         <!--
-                                                                                                    - #SERVICES SECTION
-                                                                                                  -->
+                                                                                                                    - #SERVICES SECTION
+                                                                                                                  -->
 
         <section class="services" id="services">
 
@@ -206,8 +206,8 @@
 
 
         <!--
-                                                                                                    - #PRODUCT SECTION
-                                                                                                  -->
+                                                                                                                    - #PRODUCT SECTION
+                                                                                                                  -->
 
         <section class="product" id="menu">
 
@@ -471,8 +471,8 @@
 
 
         <!--
-                                                                                                    - #TESTIMONIALS SECTION
-                                                                                                  -->
+                                                                                                                    - #TESTIMONIALS SECTION
+                                                                                                                  -->
 
         <section class="testimonials" id="testimonials">
 
@@ -560,8 +560,8 @@
 
 
         <!--
-                                                                                              - #LOGIN SECTION
-                                                                                            -->
+                                                                                                              - #LOGIN SECTION
+                                                                                                            -->
         <section class="login-section" id="login">
 
             <div class="form-box login-form">
