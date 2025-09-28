@@ -9,17 +9,17 @@
                 <div class="navbar-wrapper">
 
                     <a href="#">
-                        <img src="./assets/images/logo.svg" alt="logo" width="130">
+                        <img src="{{ asset('website/assets/images/logo.svg') }}" alt="logo" width="130">
                     </a>
 
                     <ul class="navbar-nav">
 
                         <li>
-                            <a href="{{ route('home') }}" class="nav-link">Home</a>
+                            <a href="{{ route('#home') }}" class="nav-link">Home</a>
                         </li>
 
                         <li>
-                            <a href="{{ route('about') }}" class="nav-link">About</a>
+                            <a href="{{ route('#about') }}" class="nav-link">About</a>
                         </li>
 
                         <li>
@@ -44,7 +44,8 @@
                     <div class="navbar-btn-group">
 
                         <button class="shopping-cart-btn">
-                            <img src="./assets/images/cart.svg" alt="shopping cart icon" width="18">
+                            <img src="{{ asset('website/assets/images/cart.svg') }}" alt="shopping cart icon"
+                                width="18">
                             <span class="count">5</span>
                         </button>
 
@@ -69,8 +70,8 @@
                     <li>
                         <a href="#" class="cart-item">
                             <div class="img-box">
-                                <img src="./assets/images/menu1.jpg" alt="product image" class="product-img"
-                                    width="50" height="50" loading="lazy">
+                                <img src="{{ asset('website/assets/images/menu1.jpg') }}" alt="product image"
+                                    class="product-img" width="50" height="50" loading="lazy">
                             </div>
 
                             <h5 class="product-name">Saumon gravlax</h5>
@@ -83,8 +84,8 @@
                     <li>
                         <a href="#" class="cart-item">
                             <div class="img-box">
-                                <img src="./assets/images/menu2.jpg" alt="product image" class="product-img"
-                                    width="50" height="50" loading="lazy">
+                                <img src="{{ asset('website/assets/images/menu2.jpg') }}" alt="product image"
+                                    class="product-img" width="50" height="50" loading="lazy">
                             </div>
 
                             <h5 class="product-name">Chevrefried with honey</h5>
@@ -97,8 +98,8 @@
                     <li>
                         <a href="#" class="cart-item">
                             <div class="img-box">
-                                <img src="./assets/images/menu3.jpg" alt="product image" class="product-img"
-                                    width="50" height="50" loading="lazy">
+                                <img src="{{ asset('website/assets/images/menu3.jpg') }}" alt="product image"
+                                    class="product-img" width="50" height="50" loading="lazy">
                             </div>
 
                             <h5 class="product-name">Crispy fish</h5>
@@ -111,8 +112,8 @@
                     <li>
                         <a href="#" class="cart-item">
                             <div class="img-box">
-                                <img src="./assets/images/menu4.jpg" alt="product image" class="product-img"
-                                    width="50" height="50" loading="lazy">
+                                <img src="{{ asset('website/assets/images/menu4.jpg') }}" alt="product image"
+                                    class="product-img" width="50" height="50" loading="lazy">
                             </div>
 
                             <h5 class="product-name">Stracciatella</h5>
@@ -125,8 +126,8 @@
                     <li>
                         <a href="#" class="cart-item">
                             <div class="img-box">
-                                <img src="./assets/images/menu5.jpg" alt="product image" class="product-img"
-                                    width="50" height="50" loading="lazy">
+                                <img src="{{ asset('website/assets/images/menu5.jpg') }}" alt="product image"
+                                    class="product-img" width="50" height="50" loading="lazy">
                             </div>
 
                             <h5 class="product-name">Sea bream carpaccio</h5>

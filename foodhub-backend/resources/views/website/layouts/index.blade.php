@@ -1,8 +1,8 @@
 @extends('website.layouts.app')
 @section('content')
     <!--
-                                                                                                                                - #HOME SECTION
-                                                                                                                            -->
+                                                                                                                                                                            - #HOME SECTION
+                                                                                                                                                                        -->
 
     <section class="home" id="home">
 
@@ -64,8 +64,8 @@
 
 
     <!--
-                                                                                                                                                            - #ABOUT SECTION
-                                                                                                                                                          -->
+                                                                                                                                                                                                        - #ABOUT SECTION
+                                                                                                                                                                                                      -->
 
     <section class="about" id="about">
 
@@ -117,7 +117,7 @@
                 obcaecati veritatis animi nulla, mollitia commodi quaerat ex, autem ea laborum.
             </p>
 
-            <img src="./assets/images/signature.png" alt="signature" class="signature" width="150">
+            <img src="{{ asset('website/assets/images/signature.png') }}" alt="signature" class="signature" width="150">
 
         </div>
 
@@ -128,8 +128,8 @@
 
 
     <!--
-                                                                                                                                                            - #SERVICES SECTION
-                                                                                                                                                          -->
+                                                                                                                                                                                                        - #SERVICES SECTION
+                                                                                                                                                                                                      -->
 
     <section class="services" id="services">
 
@@ -200,8 +200,8 @@
 
 
     <!--
-                                                                                                                                                            - #PRODUCT SECTION
-                                                                                                                                                          -->
+                                                                                                                                                                                                        - #PRODUCT SECTION
+                                                                                                                                                                                                      -->
 
     <section class="product" id="menu">
 
@@ -465,8 +465,8 @@
 
 
     <!--
-                                                                                                                                                            - #TESTIMONIALS SECTION
-                                                                                                                                                          -->
+                                                                                                                                                                                                        - #TESTIMONIALS SECTION
+                                                                                                                                                                                                      -->
 
     <section class="testimonials" id="testimonials">
 
@@ -554,8 +554,8 @@
 
 
     <!--
-                                                                                                                                                      - #LOGIN SECTION
-                                                                                                                                                    -->
+                                                                                                                                                                                                  - #LOGIN SECTION
+                                                                                                                                                                                                -->
     <section class="login-section" id="login">
 
         <div class="form-box login-form">

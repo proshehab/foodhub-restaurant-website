@@ -7,7 +7,8 @@
     <div class="footer-wrapper">
 
         <a href="#">
-            <img src="./assets/images/logo-footer.svg" alt="logo" class="footer-brand" width="130">
+            <img src="{{ asset('website/assets/images/logo-footer.svg') }}" alt="logo" class="footer-brand"
+                width="130">
         </a>
 
         <div class="social-link">

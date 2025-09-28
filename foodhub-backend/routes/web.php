@@ -7,5 +7,5 @@ use App\Http\Controllers\Website\FrontendController;
 //     return view('welcome');
 // });
 
-Route::get('/',[FrontendController::class, 'index'])->name('home');
-Route::get('/about',[FrontendController::class, 'about'])->name('about');
+Route::get('/',[FrontendController::class, 'index'])->name('#home');
+Route::get('/#about',[FrontendController::class, 'about'])->name('#about');
