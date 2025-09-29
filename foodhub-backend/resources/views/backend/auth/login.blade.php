@@ -3,7 +3,7 @@
 @section('content')
     <section class="login-section" id="login">
         <div class="form-box login-form">
-            <h2>Customer Login</h2>
+            <h2> Admin Login</h2>
 
             <form action="#" method="POST">
                 @csrf
