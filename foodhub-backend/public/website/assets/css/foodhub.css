@@ -838,7 +838,7 @@ html {
 \*-----------------------------------*/
   .login-section {
   padding: 60px 20px;
-  background-color: #f9f9f9;
+  background: hsla(0, 0%, 100%, 0.99);
   text-align: center;
 }
 
