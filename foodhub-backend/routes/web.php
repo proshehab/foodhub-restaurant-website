@@ -14,4 +14,6 @@ Route::get('/#about',[FrontendController::class, 'about'])->name('#about');
 
 Route::prefix('admin')->group(function () {
     Route::get('/login',[AdminLoginController::class, 'index'])->name('admin.login');
+    Route::post('/login',[AdminLoginController::class, 'login'])->name('admin.login.submit');
+
 });

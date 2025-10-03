@@ -5,7 +5,7 @@
         <div class="form-box login-form">
             <h2> Admin Login</h2>
 
-            <form action="#" method="POST">
+            <form action="{{ route('admin.login.submit') }}" method="POST">
                 @csrf
 
                 <div class="form-group">
