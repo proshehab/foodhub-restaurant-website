@@ -22,6 +22,7 @@ Route::prefix('admin')->group(function () {
 // Protected Routes
 Route::middleware('auth:admin')->prefix('admin')->group(function () {
     Route::get('/dashboard', [AdminDashboardController::class, 'index'])->name('admin.dashboard');
+    Route::get('/logout', [AdminLoginController::class, 'logout'])->name('admin.logout');
 });
 
 

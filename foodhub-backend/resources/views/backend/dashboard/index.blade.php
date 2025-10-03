@@ -18,7 +18,7 @@
 
                 <div class="navbar-btn-group">
                     <button class="btn btn-secondary">
-                        <ion-icon name="log-out-outline"></ion-icon> Logout
+                        <a href="{{ route('admin.logout') }}"><ion-icon name="log-out-outline"></ion-icon> Logout</a>
                     </button>
                 </div>
             </div>
