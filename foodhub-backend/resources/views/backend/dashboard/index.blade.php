@@ -9,7 +9,7 @@
                 </a>
 
                 <ul class="navbar-nav">
-                    <li><a href="#" class="nav-link">Dashboard</a></li>
+                    <li><a href="{{ route('admin.dashboard') }}" class="nav-link">Dashboard</a></li>
                     <li><a href="#" class="nav-link">Manage Orders</a></li>
                     <li><a href="#" class="nav-link">Manage Users</a></li>
                     <li><a href="#" class="nav-link">Manage Products</a></li>
