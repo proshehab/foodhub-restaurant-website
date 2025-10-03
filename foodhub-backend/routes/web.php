@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Website\FrontendController;
 use App\Http\Controllers\Admin\Auth\AdminLoginController;
+use App\Http\Controllers\Admin\AdminDashboardController;
 
 // Route::get('/', function () {
 //     return view('welcome');
@@ -17,3 +18,11 @@ Route::prefix('admin')->group(function () {
     Route::post('/login',[AdminLoginController::class, 'login'])->name('admin.login.submit');
 
 });
+
+
+Route::middleware(['admin'])->prefix('admin')->group(function () {
+    Route::get('/dashboard', [AdminDashboardController::class, 'index'])->name('admin.dashboard');
+    Route::post('/logout', [AdminLoginController::class, 'logout'])->name('admin.logout');
+});
+
+
