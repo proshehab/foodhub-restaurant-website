@@ -26,8 +26,7 @@ class UserLoginController extends Controller
         $user->email = $request->email;
         $user->phone = $request->phone;
         $user->password = bcrypt($request->password);
-        $user->save();
-
+        $user->save();  
         return redirect()->route('user.register')->with('success', 'Registration successful. You can now log in.');
     }
 

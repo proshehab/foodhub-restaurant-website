@@ -39,21 +39,33 @@
                 <div class="form-group">
                     <label for="fullname">Full Name</label>
                     <input type="text" id="fullname" name="name">
+                    @error('name')
+                        <span class="text-danger">{{ $message }}</span>
+                    @enderror
                 </div>
 
                 <div class="form-group">
                     <label for="email-register">Email</label>
                     <input type="email" id="email-register" name="email">
+                    @error('email')
+                        <span class="text-danger">{{ $message }}</span>
+                    @enderror
                 </div>
 
                 <div class="form-group">
                     <label for="phone">Phone Number</label>
                     <input type="tel" id="phone" name="phone">
+                    @error('phone')
+                        <span class="text-danger">{{ $message }}</span>
+                    @enderror
                 </div>
 
                 <div class="form-group">
                     <label for="password-register">Password</label>
                     <input type="password" id="password-register" name="password">
+                    @error('password')
+                        <span class="text-danger">{{ $message }}</span>
+                    @enderror   
                 </div>
 
                 <div class="form-group">
