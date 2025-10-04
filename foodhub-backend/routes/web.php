@@ -13,6 +13,7 @@ use App\Http\Controllers\Website\Auth\UserLoginController;
 Route::get('/',[FrontendController::class, 'index'])->name('#home');
 Route::get('/#about',[FrontendController::class, 'about'])->name('#about');
 Route::get('/register',[UserLoginController::class, 'userRegister'])->name('user.register');
+Route::post('/register',[UserLoginController::class, 'userRegisterStore'])->name('user.register.store');
 
 Route::prefix('admin')->group(function () {
     Route::get('/login',[AdminLoginController::class, 'index'])->name('admin.login');
