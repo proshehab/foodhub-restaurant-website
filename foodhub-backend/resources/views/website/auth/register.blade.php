@@ -34,31 +34,43 @@
         <div class="form-box register-form">
             <h2>Customer Registration</h2>
 
-            <form action="/register" method="POST">
-
+            <form action="{{ route('user.register.store') }}" method="POST">
+                @csrf
                 <div class="form-group">
                     <label for="fullname">Full Name</label>
-                    <input type="text" id="fullname" name="fullname" required>
+                    <input type="text" id="fullname" name="name">
+                    @error('name')
+                        <span class="text-danger">{{ $message }}</span>
+                    @enderror
                 </div>
 
                 <div class="form-group">
                     <label for="email-register">Email</label>
-                    <input type="email" id="email-register" name="email" required>
+                    <input type="email" id="email-register" name="email">
+                    @error('email')
+                        <span class="text-danger">{{ $message }}</span>
+                    @enderror
                 </div>
 
                 <div class="form-group">
                     <label for="phone">Phone Number</label>
-                    <input type="tel" id="phone" name="phone" required>
+                    <input type="tel" id="phone" name="phone">
+                    @error('phone')
+                        <span class="text-danger">{{ $message }}</span>
+                    @enderror
                 </div>
 
                 <div class="form-group">
                     <label for="password-register">Password</label>
-                    <input type="password" id="password-register" name="password" required>
+                    <input type="password" id="password-register" name="password">
+                    @error('password')
+                        <span class="text-danger">{{ $message }}</span>
+                    @enderror   
                 </div>
 
                 <div class="form-group">
                     <label for="confirm-password">Confirm Password</label>
-                    <input type="password" id="confirm-password" name="confirm_password" required>
+                    <input type="password" id="confirm-password" name="confirm_password">
                 </div>
 
                 <button type="submit" class="btn btn-primary">Register</button>
