@@ -10,7 +10,7 @@
 
             <div class="form-group">
                 <label for="email">Email</label>
-                <input type="email" id="email" name="email">
+                <input type="email" id="email" name="email" class="form-control " value="{{ old('email') }}" />
             </div>
             @error('email')
             <div class="alert alert-danger">{{ $message }}</div>
